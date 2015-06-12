@@ -3,14 +3,10 @@ package org.funtimecoding.java.test.debug.example;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
-/**
- * @author shiin
- */
-public class JavaTestDebugExampleMainTest {
-
+public class ExampleMainTest {
     @Test
     public void testRun() {
-        JavaTestDebugExampleMain main = new JavaTestDebugExampleMain();
+        ExampleMain main = new ExampleMain();
 
         int result = main.run();
 

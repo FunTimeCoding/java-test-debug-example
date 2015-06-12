@@ -1,17 +1,14 @@
 package org.funtimecoding.java.test.debug.example;
 
-/**
- * @author shiin
- */
-public class JavaTestDebugExampleMain {
-
+public class ExampleMain {
     public static void main(String[] args) {
-        JavaTestDebugExampleMain main = new JavaTestDebugExampleMain();
+        ExampleMain main = new ExampleMain();
         main.run();
     }
 
     public int run() {
         System.out.println("hello world");
+
         return 0;
     }
 }
